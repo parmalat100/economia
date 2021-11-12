@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 1.5 rem;
+}
+
+.direita {
+    background-color: whitesmoke;
+}
+
+.carro > img {
+    width: 350px;
+    margin-top: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-left: 20%;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -50%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.dinheiro > img {
+    width: 300px;
+    margin-top: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-left: 20%;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 50%;
+    }
+    to {
+        margin-left: 20%;
+    }
+}
+
+.juros > p {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-style: oblique;
+    margin-bottom: 160px;
+}
+
+
+.combustivel > p {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-style: oblique;
+    margin-bottom: 80px;
+}
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+footer{
+	clear: both;
+	height: 10px;
+	margin-top: 20px;
+	border-top: 1px solid blue;
+}
+#rodape{
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.dinheiro1 > img {
+    width: 350px;
+    margin-top: 50px;
+}
+
+.carro1 > img {
+    width: 350px;
+    margin-top: 50px;
+
+}
